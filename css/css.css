@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.img-100 {
+  width: 100%;
+  height: auto
+}
+
+
+/* Định dạng các ngôi sao */
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: twinkle 1s infinite;
+}
+
+/* Hiệu ứng nhấp nháy của các ngôi sao */
+@keyframes twinkle {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }}
